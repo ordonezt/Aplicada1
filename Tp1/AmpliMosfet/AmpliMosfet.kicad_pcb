@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -1657,8 +1657,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text "A: RSSP\nC: SC" (at 147.32 88) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "A: RSSP\nC: SC" (at 143.51 88.9) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "TP1 Mosfet" (at 119 87.63) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
